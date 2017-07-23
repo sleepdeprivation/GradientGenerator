@@ -36,8 +36,7 @@ class GradientInput extends Component {
 
 var gradStyle = function(left, right){
   return {
-    background: 'linear-gradient(to right, '+left+', '+right+')',
-    height:     '400px'
+    background: 'linear-gradient(to right, '+left+', '+right+')'
   };
 };
 class Gradient extends Component {
